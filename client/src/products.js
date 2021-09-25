@@ -1,0 +1,122 @@
+const Products = [
+	{
+		_id: '1',
+		name: 'Vinta Black Backpack',
+		image:
+			'https://images.unsplash.com/photo-1547949003-9792a18a2601?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80',
+		description: 'Gorgeous Black backpack for all your need',
+		brand: 'Vinta',
+		category: 'Backpack',
+		price: 799,
+		countInStock: 25,
+		rating: 4.0,
+		numReviews: 10,
+	},
+	{
+		_id: '2',
+		name: 'Analog Watch',
+		image:
+			'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80',
+		description: 'Is Fashion your dream? We are Here for you with a wonderful watch for men!',
+		brand: 'IWC',
+		category: 'Fashion',
+		price: 1099,
+		countInStock: 45,
+		rating: 4.5,
+		numReviews: 8,
+	},
+	{
+		_id: '3',
+		name: 'Beats Headphones with Microphone',
+		image:
+			'https://images.unsplash.com/photo-1599669454699-248893623440?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80',
+		description: 'High quality sound on this headphones. This is made just for you !!',
+		brand: 'Beats',
+		category: 'Electronics',
+		price: 610,
+		countInStock: 10,
+		rating: 3.5,
+		numReviews: 5,
+	},
+	{
+		_id: '4',
+		name: 'Shoes For men',
+		image:
+			'https://images.unsplash.com/photo-1617689563472-c66428e83d17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80',
+		description: 'Fantastic brown shoes made for people who loves to walk around!',
+		brand: 'Ecco',
+		category: 'Shoes',
+		price: 550,
+		countInStock: 10,
+		rating: 3.5,
+		numReviews: 5,
+	},
+	{
+		_id: '5',
+		name: 'DSLR Camera',
+		image:
+			'https://images.unsplash.com/photo-1616423640778-28d1b53229bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80',
+		description: 'Take HDR photos with a single click!',
+		brand: 'Lumix',
+		category: 'Electronics',
+		price: 2099,
+		countInStock: 25,
+		rating: 4.0,
+		numReviews: 8,
+	},
+	{
+		_id: '6',
+		name: 'Beauty For All',
+		image:
+			'https://images.unsplash.com/photo-1612817288484-6f916006741a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+		description: 'This set is a carefully made with care. 100% organic ingredients',
+		brand: "Nature's Friend",
+		category: 'Beauty and Clothing',
+		price: 810,
+		countInStock: 70,
+		rating: 3.5,
+		numReviews: 25,
+	},
+	{
+		_id: '7',
+		name: 'White Tshirt',
+		image:
+			'https://images.unsplash.com/photo-1625137325634-a8d8943f3bf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80',
+		description: 'White Tshirt To look like a Prince',
+		brand: 'Lee',
+		category: 'Beauty and Clothing',
+		price: 135,
+		countInStock: 30,
+		rating: 4.0,
+		numReviews: 5,
+	},
+	{
+		_id: '8',
+		name: 'Custom Apple Set',
+		image:
+			'https://images.unsplash.com/photo-1522273400909-fd1a8f77637e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80',
+		description: 'Red Apple Set Includes Phone, Earphones, Apple Watch, Ipad Pro max',
+		brand: 'Apple',
+		category: 'Electronics',
+		price: 7000,
+		countInStock: 15,
+		rating: 4.5,
+		numReviews: 20,
+	},
+	{
+		_id: '9',
+		name: 'Custom Nike Shoes',
+		image:
+			'https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80',
+		description:
+			"Nike's Beautiful Wonderful Superb Brilliant Shoes. Made With Care And Love Just For You. Please Buy !!!",
+		brand: 'Nike',
+		category: 'Shoes',
+		price: 1000,
+		countInStock: 36,
+		rating: 4.0,
+		numReviews: 18,
+	},
+];
+
+export default Products;
